@@ -9,8 +9,9 @@ class AppTheme {
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.pink.shade200,
+        foregroundColor: Colors.white, // Esto cambia el color del texto
         textStyle: const TextStyle(
-          color: Colors.white,
+          letterSpacing: 2,
           fontSize: 18,
         ),
       ),

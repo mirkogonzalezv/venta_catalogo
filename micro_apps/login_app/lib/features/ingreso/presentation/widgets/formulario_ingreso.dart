@@ -1,6 +1,8 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:vende_app/common/constants/routes_constants.dart';
 
 class FormularioIngreso extends StatelessWidget {
   const FormularioIngreso({
@@ -47,7 +49,9 @@ class FormularioIngreso extends StatelessWidget {
             ),
             const Text("¿No tienes cuenta?"),
             TextButton(
-              onPressed: () {},
+              onPressed: () {
+                context.push(AppRouter.registroPath);
+              },
               child: const Text(
                 "Registrarse",
               ),

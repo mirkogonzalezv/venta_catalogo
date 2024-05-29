@@ -24,6 +24,8 @@ dependencies:
   #MicroApps
   login_app:
     path: micro_apps/login_app
+  registro_app:
+    path: micro_apps/registro_app
 
 dev_dependencies:
   flutter_test:
