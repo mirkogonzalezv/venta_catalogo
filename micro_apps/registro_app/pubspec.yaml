@@ -1,5 +1,6 @@
 name: registro_app
 description: "A new Flutter package project."
+publish_to: 'none'
 version: 0.0.1
 homepage:
 
@@ -10,6 +11,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  login_app:
+    path: ../login_app
 
 dev_dependencies:
   flutter_test:

@@ -22,7 +22,7 @@ final router = GoRouter(
       path: AppRouter.registroPath,
       name: AppRouter.registroName,
       builder: (context, state) {
-        return const RegistroView();
+        return const RegistroApp();
       },
     ),
   ],
