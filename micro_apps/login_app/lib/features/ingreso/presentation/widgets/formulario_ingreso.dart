@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:vende_app/common/constants/routes_constants.dart';
 
+import 'boton_ingresar.dart';
+
 class FormularioIngreso extends StatelessWidget {
   const FormularioIngreso({
     super.key,
@@ -37,13 +39,7 @@ class FormularioIngreso extends StatelessWidget {
             const SizedBox(
               height: 18,
             ),
-            SizedBox(
-              width: double.maxFinite,
-              child: ElevatedButton(
-                onPressed: () {},
-                child: const Text("Ingresar"),
-              ),
-            ),
+            const BotonIngresar(),
             const SizedBox(
               height: 18,
             ),

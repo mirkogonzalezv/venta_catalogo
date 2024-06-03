@@ -6,6 +6,7 @@ class AppTheme {
     brightness: Brightness.light,
     primaryColor: Colors.pink.shade600,
     focusColor: Colors.pink.shade200,
+    appBarTheme: AppBarTheme(backgroundColor: Colors.pink.shade200, foregroundColor: Colors.white),
     elevatedButtonTheme: ElevatedButtonThemeData(
       style: ElevatedButton.styleFrom(
         backgroundColor: Colors.pink.shade200,

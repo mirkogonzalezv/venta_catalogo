@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_1.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_2.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_3.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_4.dart';
 
 import 'features/ingreso/presentation/pages/ingreso_view.dart';
-import 'features/ingreso/presentation/widgets/circulos/circulo_1.dart';
-import 'features/ingreso/presentation/widgets/circulos/circulo_2.dart';
-import 'features/ingreso/presentation/widgets/circulos/circulo_3.dart';
-import 'features/ingreso/presentation/widgets/circulos/circulo_4.dart';
 
 class LoginApp extends StatelessWidget {
   const LoginApp({super.key});

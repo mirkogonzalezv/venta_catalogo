@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:login_app/features/ingreso/presentation/widgets/circulos/circulo_1.dart';
-import 'package:login_app/features/ingreso/presentation/widgets/circulos/circulo_2.dart';
-import 'package:login_app/features/ingreso/presentation/widgets/circulos/circulo_3.dart';
-import 'package:login_app/features/ingreso/presentation/widgets/circulos/circulo_4.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_1.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_2.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_3.dart';
+import 'package:vende_app/common/components/features/navegacion/widgets/circulos/circulo_4.dart';
 
 import 'features/registro_view/presentation/pages/registro_view.dart';
 

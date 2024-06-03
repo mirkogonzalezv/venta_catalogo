@@ -29,6 +29,8 @@ dependencies:
     path: micro_apps/registro_app
   dashboard_app:
     path: micro_apps/dashboard_app
+  home_app:
+    path: micro_apps/home_app
 
 dev_dependencies:
   flutter_test:
