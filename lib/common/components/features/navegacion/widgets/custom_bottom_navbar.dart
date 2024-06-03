@@ -12,32 +12,32 @@ class CustomBottomNavbar extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocConsumer<NavegacionBloc, int>(
       builder: (context, state) {
-        return BottomNavigationBar(
-          currentIndex: state,
-          showUnselectedLabels: true,
-          backgroundColor: Colors.white,
-          selectedItemColor: Colors.pinkAccent,
-          unselectedItemColor: Colors.pink.shade200,
-          onTap: (index) {
+        return NavigationBar(
+          selectedIndex: state,
+          // showUnselectedLabels: true,
+          // backgroundColor: Colors.white,
+          // selectedItemColor: Colors.pinkAccent,
+          // unselectedItemColor: Colors.pink.shade200,
+          onDestinationSelected: (index) {
             BlocProvider.of<NavegacionBloc>(context).add(TabChangeEvent(indice: index));
           },
-          items: const [
-            BottomNavigationBarItem(
+          destinations: const [
+            NavigationDestination(
                 icon: Icon(
                   Icons.home_outlined,
                 ),
                 label: 'Pedidos'),
-            BottomNavigationBarItem(
+            NavigationDestination(
                 icon: Icon(
                   Icons.category_outlined,
                 ),
                 label: 'Devoluciones'),
-            BottomNavigationBarItem(
+            NavigationDestination(
                 icon: Icon(
                   Icons.person_3_outlined,
                 ),
                 label: 'Clientes'),
-            BottomNavigationBarItem(
+            NavigationDestination(
                 icon: Icon(
                   Icons.menu,
                 ),

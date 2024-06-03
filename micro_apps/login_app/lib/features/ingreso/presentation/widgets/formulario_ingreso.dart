@@ -25,10 +25,10 @@ class FormularioIngreso extends StatelessWidget {
             ),
             TextFormField(
               controller: telefonoController,
-              decoration: InputDecoration(
-                labelText: 'Teléfono',
-                hintText: '9XXXX XXXX',
-                prefixIcon: (Platform.isAndroid) ? const Icon(Icons.phone_android) : const Icon(Icons.phone_iphone),
+              decoration: const InputDecoration(
+                labelText: 'Email',
+                hintText: 'Email',
+                prefixIcon: Icon(Icons.mail_outline_outlined),
               ),
             ),
             TextFormField(

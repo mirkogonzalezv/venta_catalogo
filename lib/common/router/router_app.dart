@@ -14,6 +14,9 @@ final GlobalKey<NavigatorState> _rootNavigator = GlobalKey(debugLabel: 'root');
 final GlobalKey<NavigatorState> _shellNavigator = GlobalKey(debugLabel: 'shell');
 
 final router = GoRouter(
+  redirect: (context, state) {
+    return null;
+  },
   debugLogDiagnostics: true,
   navigatorKey: _rootNavigator,
   initialLocation: AppRouter.loginPath,
@@ -43,6 +46,13 @@ final router = GoRouter(
             return const ClientesApp();
           },
         ),
+        GoRoute(
+          path: AppRouter.menuPath,
+          name: AppRouter.menuName,
+          builder: (context, state) {
+            return const MenuApp();
+          },
+        )
       ],
     ),
     GoRoute(
@@ -59,12 +69,5 @@ final router = GoRouter(
         return const RegistroApp();
       },
     ),
-    GoRoute(
-      path: AppRouter.menuPath,
-      name: AppRouter.menuName,
-      builder: (context, state) {
-        return const MenuApp();
-      },
-    )
   ],
 );

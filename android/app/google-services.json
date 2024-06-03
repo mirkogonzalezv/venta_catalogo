@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "100027178902",
+    "project_id": "venta-catalogo-app-cb9e0",
+    "storage_bucket": "venta-catalogo-app-cb9e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100027178902:android:c6a7789c5ac3705cee07b7",
+        "android_client_info": {
+          "package_name": "cl.mirko.ventacatalogoapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZ2d4hZipdpdp5vF2bI6g85d-AmIu4IZ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

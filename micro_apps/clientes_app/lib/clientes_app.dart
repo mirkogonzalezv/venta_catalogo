@@ -12,6 +12,10 @@ class ClientesApp extends StatelessWidget {
       body: const Center(
         child: Text("Clientes App"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.person_add_sharp),
+      ),
     );
   }
 }
