@@ -31,6 +31,12 @@ dependencies:
     path: micro_apps/dashboard_app
   home_app:
     path: micro_apps/home_app
+  devoluciones_app:
+    path: micro_apps/devoluciones_app
+  clientes_app:
+    path: micro_apps/clientes_app
+  menu_app:
+    path: micro_apps/menu_app
 
 dev_dependencies:
   flutter_test:

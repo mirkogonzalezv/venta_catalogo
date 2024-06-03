@@ -9,8 +9,8 @@ class HomeApp extends StatelessWidget {
       appBar: AppBar(
         title: const Text("Venta Catálogo"),
       ),
-      body: Container(
-        child: const Text('Home App'),
+      body: const Center(
+        child: Text('Home App'),
       ),
     );
   }

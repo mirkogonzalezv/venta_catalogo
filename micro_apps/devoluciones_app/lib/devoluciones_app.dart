@@ -5,8 +5,11 @@ class DevolucionesApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Devoluciones"),
+      ),
+      body: const Center(
         child: Text("Devoluciones App"),
       ),
     );
