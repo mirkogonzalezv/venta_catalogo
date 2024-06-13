@@ -14,10 +14,6 @@ class CustomBottomNavbar extends StatelessWidget {
       builder: (context, state) {
         return NavigationBar(
           selectedIndex: state,
-          // showUnselectedLabels: true,
-          // backgroundColor: Colors.white,
-          // selectedItemColor: Colors.pinkAccent,
-          // unselectedItemColor: Colors.pink.shade200,
           onDestinationSelected: (index) {
             BlocProvider.of<NavegacionBloc>(context).add(TabChangeEvent(indice: index));
           },

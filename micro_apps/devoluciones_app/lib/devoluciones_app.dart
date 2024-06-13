@@ -12,6 +12,10 @@ class DevolucionesApp extends StatelessWidget {
       body: const Center(
         child: Text("Devoluciones App"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }

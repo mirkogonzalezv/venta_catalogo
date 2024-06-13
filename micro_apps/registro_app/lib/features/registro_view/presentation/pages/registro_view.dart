@@ -30,50 +30,54 @@ class RegistroView extends StatelessWidget {
                 ),
                 TextFormField(
                   controller: nombreCompletoController,
-                  decoration: const InputDecoration(
-                    labelText: 'Nombre Completo',
-                    hintText: 'Nombre Completo',
-                  ),
+                  decoration: InputDecoration(
+                      labelText: 'Email',
+                      hintText: 'Email',
+                      suffixIcon: Icon(
+                        Icons.email_outlined,
+                        color: Colors.pink.shade200,
+                      )),
                 ),
                 const SizedBox(
                   height: 16,
                 ),
                 TextFormField(
-                  controller: telefonoController,
-                  decoration: const InputDecoration(
-                    labelText: 'Teléfono',
-                    hintText: 'Teléfono',
-                  ),
-                ),
-                const SizedBox(
-                  height: 16,
-                ),
-                TextFormField(
-                  controller: telefonoController,
-                  decoration: const InputDecoration(
+                  controller: contrasenaController,
+                  obscureText: true,
+                  decoration: InputDecoration(
                     labelText: 'Contraseña',
                     hintText: 'Contraseña',
+                    suffixIcon: Icon(
+                      Icons.visibility_off_outlined,
+                      color: Colors.pink.shade200,
+                    ),
                   ),
                 ),
                 const SizedBox(
                   height: 16,
                 ),
                 TextFormField(
-                  controller: telefonoController,
-                  decoration: const InputDecoration(
+                  controller: confirmarContrasenaController,
+                  obscureText: true,
+                  decoration: InputDecoration(
                     labelText: 'Confirmar Contraseña',
                     hintText: 'Contraseña',
+                    suffixIcon: Icon(
+                      Icons.visibility_off_outlined,
+                      color: Colors.pink.shade200,
+                    ),
                   ),
                 ),
                 const SizedBox(
                   height: 44,
                 ),
                 // Botón de registro
-                SizedBox(
+                const SizedBox(
                   width: double.maxFinite,
                   child: ElevatedButton(
-                    onPressed: () {},
-                    child: const Text(
+                    // onPressed: () {},
+                    onPressed: null,
+                    child: Text(
                       "Registrar",
                     ),
                   ),

@@ -14,6 +14,7 @@ dependencies:
   flutter_bloc: ^8.1.5
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
+  firebase_auth: ^4.20.0
   vende_app:
     path: ../../
 

@@ -1,1 +1,33 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"venta-catalogo-app-cb9e0","appId":"1:100027178902:android:c6a7789c5ac3705cee07b7","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"venta-catalogo-app-cb9e0","appId":"1:100027178902:ios:53bb88db2e1fcbf9ee07b7","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"venta-catalogo-app-cb9e0","configurations":{"android":"1:100027178902:android:c6a7789c5ac3705cee07b7","ios":"1:100027178902:ios:53bb88db2e1fcbf9ee07b7"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "venta-catalogo-app-cb9e0",
+          "appId": "1:100027178902:android:c6a7789c5ac3705cee07b7",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "venta-catalogo-app-cb9e0",
+          "appId": "1:100027178902:ios:53bb88db2e1fcbf9ee07b7",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "venta-catalogo-app-cb9e0",
+          "configurations": {
+            "android": "1:100027178902:android:c6a7789c5ac3705cee07b7",
+            "ios": "1:100027178902:ios:53bb88db2e1fcbf9ee07b7"
+          }
+        }
+      }
+    }
+  },
+  "emulators": {
+    "singleProjectMode": true
+  }
+}

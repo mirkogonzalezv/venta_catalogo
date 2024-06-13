@@ -12,6 +12,10 @@ class HomeApp extends StatelessWidget {
       body: const Center(
         child: Text('Home App'),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
