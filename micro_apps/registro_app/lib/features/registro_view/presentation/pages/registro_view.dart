@@ -30,6 +30,7 @@ class RegistroView extends StatelessWidget {
                 ),
                 TextFormField(
                   controller: nombreCompletoController,
+                  autocorrect: false,
                   decoration: InputDecoration(
                       labelText: 'Email',
                       hintText: 'Email',
@@ -43,6 +44,7 @@ class RegistroView extends StatelessWidget {
                 ),
                 TextFormField(
                   controller: contrasenaController,
+                  autocorrect: false,
                   obscureText: true,
                   decoration: InputDecoration(
                     labelText: 'Contraseña',
@@ -58,6 +60,7 @@ class RegistroView extends StatelessWidget {
                 ),
                 TextFormField(
                   controller: confirmarContrasenaController,
+                  autocorrect: false,
                   obscureText: true,
                   decoration: InputDecoration(
                     labelText: 'Confirmar Contraseña',
